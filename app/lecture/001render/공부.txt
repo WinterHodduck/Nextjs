@@ -1,0 +1,6 @@
+컴포넌트 (면접시 재사용성 높게 작성한 구조에 점수를 준다)
+컴포넌트 작성 규칙
+컴포넌트랑 페이즈 구분
+props == 자바의 인자값 (parameter)
+export  import 하는법
+default import 하는법

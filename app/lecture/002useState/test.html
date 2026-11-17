@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="aa"></div>
+    <button onclick="aaa()">클릭</button>
+  </body>
+</html>
+<script>
+  let num = 50;
+  const d = document.getElementById("aa");
+  d.innerText = num;
+
+  function aaa() {
+    num = num + 1;
+    alert(num);
+    // 변수의 값이 바뀌더라도 화면은 갱신되지 않기 때문에 수동으로 처리
+    // 개발자가 일일이 수정해야 함
+    d.innerText = num;
+  }
+</script>
